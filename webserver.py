@@ -3,11 +3,11 @@ from os import path
 
 class WebServer(socketserver.BaseRequestHandler):
 	def serve_content(self, path, headers):
-		with open(path, 'r') as f:
+		with open(path, 'rb') as f:
 			lines_list = f.readlines()
-			content = "\n".join(lines_list)
-			response = headers + content
-			self.request.sendall(response.encode())
+			content = "\n".encode().join(lines_list)
+			response = headers.encode() + content
+			self.request.sendall(response)
 
 	def handle(self):
 		self.data = self.request.recv(1024).strip()
