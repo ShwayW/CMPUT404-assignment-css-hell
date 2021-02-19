@@ -1,3 +1,21 @@
+Copyright 2020 Shuwei Wang
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+ 
+     http://www.apache.org/licenses/LICENSE-2.0
+ 
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Author: Shuwei Wang
+CCID: shuwei4
+student #: 1576835
+
 Assignment: CSS Hell
 ====================
 
@@ -27,6 +45,8 @@ https://www.transparenttextures.com/
 maintained by Mike Hearn.
 His twitter is @mikehearn,
 Thank you Mike!
+
+What I needed to do:
 
 I changed the background color and its texture.
 I used different textures for the body and the paragraphs.
