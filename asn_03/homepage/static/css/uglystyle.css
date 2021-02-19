@@ -1,35 +1,53 @@
-* {
-  box-sizing: border-box;
-}
-
 /* Style the body */
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url('../images/bubbles.jpg');
+  background-size: 100%;
   margin: 0;
 }
 
 /* Style the headers */
 .header {
-  padding: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1%;
   text-align: center;
-  background: #66ccff;
-  background-image:url('./images/cat.png');
-  color: white;
+  color: orange;
 }
 
 .header h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 100px;
+  font-size: 6em;
 }
 
 .header p {
+  font-size: 50px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+  color: orange;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: orange;
 }
 
 .navbar {
   overflow: hidden;
   background-color: #333;
+  background-image: url('../images/stars.jpg');
 }
 
 .navbar a {
@@ -37,8 +55,9 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 1em 0.5em;
   text-decoration: none;
+  font-size: 3em;
 }
 
 .navbar a.right {
@@ -46,7 +65,7 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: orange;
   color: black;
 }
 
@@ -61,6 +80,7 @@ body {
   -ms-flex: 30%; /* IE10 */
   flex: 30%;
   background-color: #f1f1f1;
+  background-image: url('../images/graycat.jpg');
   padding: 20px;
 }
 
@@ -68,14 +88,21 @@ body {
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: white;
+  background-image: url('../images/normalcat.jpg');
   padding: 20px;
 }
 
 .img {
   background-color: #aaa;
+  border-radius: 50%;
+  height: 28em;
+  width: 26em;
+}
+
+img {
+  border-radius: 50%;
+  height: 100%;
   width: 100%;
-  width:500px;
-  height:600px;
 }
 
 
@@ -83,19 +110,4 @@ body {
   padding: 20px;
   text-align: center;
   background: #ddd;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
 }

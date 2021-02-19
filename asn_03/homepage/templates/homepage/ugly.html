@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'css/uglystyle.css' %}">
+</head>
+<body>
+
+<div class="header">
+  <h1>Shway Wang's</h1>
+  <p>personal website</p>
+</div>
+
+<div class="navbar">
+  <a href="#">About</a>
+  <a href="#">Education</a>
+  <a href="#">Career</a>
+  <a href="#" class="right">Home page</a>
+</div>
+
+<div class="row">
+  <!-- This is the smaller half page on the left side.-->
+  <div class="side">
+    <h2>About Me</h2>
+    <div class="img">
+      <img src="{% static 'images/myphoto.jpg' %}" alt="My Photo">
+    </div>
+    <p><ul>
+      <li>BCs CS with Honor from the University of Alberta</li>
+      <li>Fluent in both Mandarin and English</li>
+    </ul></p>
+    
+  </div>
+  <!-- This is the larger half page on the right side.-->
+  <div class="main">
+    <h2>Skills</h2>
+    <p>Intensive programming experiences with Python, C++ and Java. 
+    Able to apply Tensorflow and numpy librariess in Machine Learning.
+    Understand techniques of using GPU to speed up parallel computations by applying CUDA C++.
+    Familiar with android development, web design, team workflow.
+    Familiar with SQL and non-SQL databases.
+    Familiar with other programming languages such as Lisp, Prolog, and Assembly.</p>
+    <br>
+    <h2>Experiences</h2>
+    <p>Worked on a mobile app in a group of six involving techniques such as Java programming,
+    UML diagrams editing, workflow management, and GUI design.
+    Worked on a dynamic website in a group of five.
+    Volunteered in Campus clubs: CASSA, Campus Bible Talk.
+    Understand both Western and Eastern cultures.</p>
+  </div>
+</div>
+
+</body>
+</html>
