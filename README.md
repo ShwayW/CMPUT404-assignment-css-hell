@@ -12,9 +12,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-Author: Shuwei Wang
-CCID: shuwei4
-student #: 1576835
+Author: Shuwei Wang &nbsp
+CCID: shuwei4 &nbsp
+student #: 1576835 &nbsp
 
 Assignment: CSS Hell
 ====================
