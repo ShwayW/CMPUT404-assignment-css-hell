@@ -16,20 +16,6 @@ Author: Shuwei Wang
 CCID: shuwei4  
 student #: 1576835  
 
-Assignment: CSS Hell
-====================
-
-You will skin 3 project gutenberg stories with custom CSS.
-
-You will skin 2 versions of a possible professional homepage for your
-self with 2 versions of CSS.
-
-Read requirements.org
-
-Read this comic http://theoatmeal.com/comics/design_hell
-
-git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
-
 License/Copyright
 =================
 
@@ -46,7 +32,8 @@ maintained by Mike Hearn.
 His twitter is @mikehearn,
 Thank you Mike!
 
-What I needed to do:
+What I needed to do for this assignment
+=======================================
 
 I changed the background color and its texture.
 I used different textures for the body and the paragraphs.
