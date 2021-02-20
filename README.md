@@ -13,8 +13,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 Author: Shuwei Wang  
-CCID: shuwei4 &nbsp
-student #: 1576835 &nbsp
+CCID: shuwei4  
+student #: 1576835  
 
 Assignment: CSS Hell
 ====================
